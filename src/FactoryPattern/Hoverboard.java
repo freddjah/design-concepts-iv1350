@@ -1,9 +1,9 @@
 package FactoryPattern;
 
 /**
- * The Hoverboard extends the abstract class Product.
+ * The Hoverboard extends the abstract class AbstractProduct.
  */
-public class Hoverboard extends Product{
+public class Hoverboard extends AbstractProduct {
 
     /**
      * Creates an instance of the Hoverboard, with hardcoded name and cost.

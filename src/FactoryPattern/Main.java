@@ -8,9 +8,9 @@ public class Main {
         Factory factory = new Factory();
         factory.printProductsThatCanBeCreated();
 
-        Product firstProduct = factory.createProduct("Lamp");
-        Product secondProduct = factory.createProduct("Hoverboard");
-        Product thirdProduct = factory.createProduct("Phone");
+        AbstractProduct firstProduct = factory.createProduct("Lamp");
+        AbstractProduct secondProduct = factory.createProduct("Hoverboard");
+        AbstractProduct thirdProduct = factory.createProduct("Phone");
 
         firstProduct.printProductSpecification();
         secondProduct.printProductSpecification();

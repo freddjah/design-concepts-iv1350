@@ -2,9 +2,9 @@ package FactoryPattern;
 
 /**
  * The abstract class that the User states as a return in the "view". This way you can extend several implementation based
- * on the Product class and easily return any kind of implementation during runtime.
+ * on the AbstractProduct class and easily return any kind of implementation during runtime.
  */
-abstract class Product {
+abstract class AbstractProduct {
 
     private String name;
     private double cost;

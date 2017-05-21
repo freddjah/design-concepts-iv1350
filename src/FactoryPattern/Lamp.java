@@ -1,9 +1,9 @@
 package FactoryPattern;
 
 /**
- * The Lamp extends the abstract class Product.
+ * The Lamp extends the abstract class AbstractProduct.
  */
-public class Lamp extends Product {
+public class Lamp extends AbstractProduct {
 
     /**
      * Creates an instance of the Lamp, with hardcoded name and cost.
